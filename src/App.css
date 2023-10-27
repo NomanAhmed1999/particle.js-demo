@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  background: linear-gradient(to left, var(--tertiary1), var(--tertiary2));
+  color: var(--white);
+} */
+
+.header-container {
+  box-shadow: 0px 0px 15px rgba(10, 2, 19, 0.5) inset;
+  border-radius: 15px;
+}
+
+.bg-gradient {
+  background: linear-gradient(113deg, #3c096c69 44%, #e2cdf42e 130%);
+}
+
+.search-box {
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem 1.5rem;
+}
+
+.search-box input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.compose-btn {
+  background: linear-gradient(134deg, #c599eb94 0%, #e2cdf499 100%);
+  box-shadow: 0px 0px 20px rgba(10, 2, 19, 0.5);
+  border-radius: 15px;
+}
+
+.ql-container{
+  border: none !important;
+  border-top: 1px solid #ffffff !important;
+}
+
+
+
+#style-4::-webkit-scrollbar
+{
+    border-radius: 10px;
+    width: 8px;
+    background: #cfcccc;
+}
+
+#style-4::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #280647;
+}
+
+/* .quill > .ql-container > .ql-editor.ql-blank::before{
+  font-size: 20px;
+  color: red;
+} */
